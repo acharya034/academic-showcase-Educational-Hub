@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chemistry: Main Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: #228B22;
+            color: white;
+            gap: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #ffebcd;
+        }
+
+        .home {
+            background-color: navajowhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+
+        .home h1 {
+            text-transform: capitalize;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .home img {
+            border-radius: 50%;
+        }
+
+        .main {
+            text-align: center;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .button-container a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #228B22;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .button-container a:hover {
+            background-color: #1a6b1a;
+            color: #ffebcd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <section class="menu">
+        <a href="index.html">← Back</a>
+        <img src="image/ig.png" style="width: 20px;">
+        <img src="image/fb.png" style="width: 20px;">
+        <img src="image/yt.png" style="width: 20px;">
+        <a href="how.html">How to Use</a>
+    </section>
+
+    <!-- Header -->
+    <section class="home">
+        <a href="https://nistcollege.edu.np/" target="_blank">
+            <img src="image/nist1.png" alt="Logo" width="70" height="70">
+        </a>
+        <h1>Sushanta Acharya</h1>
+        <img src="image/me.png" alt="It's Me" width="70" height="70">
+    </section>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Chemistry</h2>
+        <div id="description">
+            <p>Chemistry is the science of matter, its properties, composition, and the changes it undergoes during chemical reactions. It explores how atoms combine to form molecules, how substances interact, and how energy is involved in these processes. Chemistry is essential for understanding everything from the food we eat to the materials we use in daily life.</p>
+        </div>
+
+        <div class="button-container">
+            <a href="atomic-structure.html">Atomic Structure</a>
+            <a href="chemical-bonding.html">Chemical Bonding</a>
+            <a href="acids-and-bases.html">Acids and Bases</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

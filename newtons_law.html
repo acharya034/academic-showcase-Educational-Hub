@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Physics Chapter 2: Newton's Laws of Motion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: #228B22;
+            color: white;
+            gap: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #ffebcd;
+        }
+
+        .home {
+            background-color: navajowhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+
+        .home h1 {
+            text-transform: capitalize;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .home img {
+            border-radius: 50%;
+        }
+
+        .main {
+            text-align: center;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .content-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .content-section img {
+            width: 45%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .content-section .text {
+            width: 45%;
+            max-width: 400px;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <section class="menu">
+        <a href="physics.html">← Back</a>
+        <img src="image/ig.png" style="width: 20px;">
+        <img src="image/fb.png" style="width: 20px;">
+        <img src="image/yt.png" style="width: 20px;">
+        <a href="how.html">How to Use</a>
+    </section>
+
+    <!-- Header -->
+    <section class="home">
+        <a href="https://nistcollege.edu.np/" target="_blank">
+            <img src="image/nist1.png" alt="Logo" width="70" height="70">
+        </a>
+        <h1>Sushanta Acharya</h1>
+        <img src="image/me.png" alt="It's Me" width="70" height="70">
+    </section>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Newton's Laws of Motion</h2>
+        <div id="description">
+            <p>Newton's Laws of Motion, formulated by Sir Isaac Newton, are the foundation of classical mechanics. These
+                three laws describe how objects move and interact with forces, explaining everything from everyday
+                motion to complex physical systems. Each law addresses a specific aspect of motion and force, providing
+                a framework for understanding dynamics in physics.</p>
+        </div>
+
+        <div class="content-section">
+            <img src="image/first.jpg" alt="Newton's First Law">
+            <div class="text">
+                <p><strong>Newton's First Law (Law of Inertia):</strong> An object at rest stays at rest, and an object
+                    in motion continues in a straight line at constant speed unless acted upon by an external force.
+                    This law highlights inertia, the tendency of objects to resist changes in their motion. For example,
+                    a book on a table remains stationary unless pushed, and a rolling ball continues moving until
+                    friction or another force stops it. <strong>Application:</strong> Seatbelts in cars prevent
+                    passengers from continuing forward motion during a sudden stop, protecting them by countering
+                    inertia.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/second.webp" alt="Newton's Second Law">
+            <div class="text">
+                <p><strong>Newton's Second Law (Law of Acceleration):</strong> The acceleration of an object is directly
+                    proportional to the net force acting on it and inversely proportional to its mass (F = ma). This law
+                    quantifies how forces cause motion. For instance, pushing a heavy cart requires more force than a
+                    lighter one to achieve the same acceleration. <strong>Application:</strong> In rocket propulsion,
+                    the force (thrust) accelerates the rocket, with greater force leading to higher acceleration for a
+                    given mass.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/third.jpeg" alt="Newton's Third Law">
+            <div class="text">
+                <p><strong>Newton's Third Law (Action-Reaction):</strong> For every action, there is an equal and
+                    opposite reaction. When one object exerts a force on another, the second object exerts an equal
+                    force in the opposite direction. For example, when you push against a wall, the wall pushes back
+                    with equal force. <strong>Application:</strong> In swimming, pushing water backward propels the
+                    swimmer forward, as the water exerts an equal and opposite force on the swimmer.</p>
+            </div>
+        </div>
+
+        <!-- Embedded Video -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WSDcYUrGODE"
+                title="Newton's Laws of Motion Explained" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
