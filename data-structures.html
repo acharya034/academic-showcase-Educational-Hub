@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Chapter: Data Structures</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: #228B22;
+            color: white;
+            gap: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #ffebcd;
+        }
+
+        .home {
+            background-color: navajowhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+
+        .home h1 {
+            text-transform: capitalize;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .home img {
+            border-radius: 50%;
+        }
+
+        .main {
+            text-align: center;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .content-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .content-section img {
+            width: 45%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .content-section .text {
+            width: 45%;
+            max-width: 400px;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <section class="menu">
+        <a href="computer.html">← Back</a>
+        <img src="image/ig.png" style="width: 20px;">
+        <img src="image/fb.png" style="width: 20px;">
+        <img src="image/yt.png" style="width: 20px;">
+        <a href="how.html">How to Use</a>
+    </section>
+
+    <!-- Header -->
+    <section class="home">
+        <a href="https://nistcollege.edu.np/" target="_blank">
+            <img src="image/nist1.png" alt="Logo" width="70" height="70">
+        </a>
+        <h1>Sushanta Acharya</h1>
+        <img src="image/me.png" alt="It's Me" width="70" height="70">
+    </section>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Data Structures</h2>
+        <div id="description">
+            <p>Data structures are specialized formats for organizing and storing data to enable efficient access and manipulation. They are fundamental in computer science for designing efficient algorithms and managing large datasets.</p>
+        </div>
+
+        <div class="content-section">
+            <img src="image/Arrays.png" alt="Arrays">
+            <div class="text">
+                <p><strong>Arrays:</strong> Arrays are collections of elements stored in contiguous memory locations, accessed by indices. They provide fast access but fixed size. <strong>Application:</strong> Arrays are used in image processing to store pixel values in a grid for efficient manipulation.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/Linked Lists.jpg" alt="Linked Lists">
+            <div class="text">
+                <p><strong>Linked Lists:</strong> Linked lists store elements as nodes, each containing data and a reference to the next node, allowing dynamic size changes. <strong>Application:</strong> Linked lists are used in music playlists to manage songs, enabling easy addition or removal.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/Stacks and Queues.png" alt="Stacks and Queues">
+            <div class="text">
+                <p><strong>Stacks and Queues:</strong> Stacks follow Last-In-First-Out (LIFO), while queues follow First-In-First-Out (FIFO) principles for data access. <strong>Application:</strong> Stacks are used in web browsers to manage the back button history, allowing navigation to previous pages.</p>
+            </div>
+        </div>
+
+        <!-- Embedded Video -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KwBuV7YZido"
+                title="Data Structures Explained" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>

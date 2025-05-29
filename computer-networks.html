@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Chapter: Computer Networks</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: #228B22;
+            color: white;
+            gap: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #ffebcd;
+        }
+
+        .home {
+            background-color: navajowhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+
+        .home h1 {
+            text-transform: capitalize;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .home img {
+            border-radius: 50%;
+        }
+
+        .main {
+            text-align: center;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .content-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .content-section img {
+            width: 45%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .content-section .text {
+            width: 45%;
+            max-width: 400px;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <section class="menu">
+        <a href="computer.html">← Back</a>
+        <img src="image/ig.png" style="width: 20px;">
+        <img src="image/fb.png" style="width: 20px;">
+        <img src="image/yt.png" style="width: 20px;">
+        <a href="how.html">How to Use</a>
+    </section>
+
+    <!-- Header -->
+    <section class="home">
+        <a href="https://nistcollege.edu.np/" target="_blank">
+            <img src="image/nist1.png" alt="Logo" width="70" height="70">
+        </a>
+        <h1>Sushanta Acharya</h1>
+        <img src="image/me.png" alt="It's Me" width="70" height="70">
+    </section>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Computer Networks</h2>
+        <div id="description">
+            <p>Computer networks enable devices to communicate by sharing data and resources through wired or wireless connections. They form the backbone of modern communication, supporting everything from local connections to global internet infrastructure.</p>
+        </div>
+
+        <div class="content-section">
+            <img src="image/LAN, WAN, and MAN.png" alt="LAN, WAN, MAN">
+            <div class="text">
+                <p><strong>LAN, WAN, and MAN:</strong> Local Area Networks (LANs) connect devices in a small area like an office, Wide Area Networks (WANs) span large regions like cities, and Metropolitan Area Networks (MANs) cover intermediate areas. <strong>Application:</strong> LANs are used in schools to connect computers in a lab, enabling file sharing and internet access.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/IP Addressing.webp" alt="IP Addressing">
+            <div class="text">
+                <p><strong>IP Addressing:</strong> IP addresses are unique identifiers assigned to devices on a network, enabling accurate data routing. IPv4 uses 32-bit addresses (e.g., 192.168.1.1), while IPv6 uses 128-bit addresses. <strong>Application:</strong> IP addressing allows devices to connect to the internet, enabling communication in applications like video conferencing.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <img src="image/TCP IP Protocol.png" alt="TCP/IP Protocol">
+            <div class="text">
+                <p><strong>TCP/IP Protocol:</strong> The Transmission Control Protocol/Internet Protocol (TCP/IP) suite governs data transmission over the internet, ensuring reliable delivery. <strong>Application:</strong> TCP/IP enables web browsing, allowing users to access websites through reliable data packet transmission.</p>
+            </div>
+        </div>
+
+        <!-- Embedded Video -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sfzo4xm5eX8"
+                title="Computer Networks Explained" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Physics Chapter 2: Projectile Motion</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 30px;
+      background-color: #228B22;
+      color: white;
+      gap: 10px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      color: #ffebcd;
+    }
+
+    .home {
+      background-color: navajowhite;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .home h1 {
+      text-transform: capitalize;
+      font-size: 28px;
+      margin: 0;
+    }
+
+    .home img {
+      border-radius: 50%;
+    }
+
+    .main {
+      text-align: center;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    #description {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+
+    .content-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 40px 0;
+      flex-wrap: wrap;
+    }
+
+    .content-section img {
+      width: 45%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+    }
+
+    .content-section .text {
+      width: 45%;
+      max-width: 400px;
+      margin: 10px;
+      text-align: left;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Navigation -->
+  <section class="menu">
+    <a href="physics.html">← Back</a>
+    <img src="image/ig.png" style="width: 20px;">
+    <img src="image/fb.png" style="width: 20px;">
+    <img src="image/yt.png" style="width: 20px;">
+    <a href="how.html">How to Use</a>
+  </section>
+
+  <!-- Header -->
+  <section class="home">
+    <a href="https://nistcollege.edu.np/" target="_blank">
+      <img src="image/nist1.png" alt="Logo" width="70" height="70">
+    </a>
+    <h1>Sushanta Acharya</h1>
+    <img src="image/me.png" alt="It's Me" width="70" height="70">
+  </section>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h2>Projectile Motion</h2>
+    <div id="description">
+      <p>Projectile motion describes the motion of an object launched into the air, moving under the influence of
+        gravity alone. This two-dimensional motion can be analyzed by separating it into horizontal and vertical
+        components, resulting in a parabolic trajectory. It is a fundamental concept in physics, applicable to various
+        real-world scenarios.</p>
+    </div>
+
+    <div class="content-section">
+      <img src="image/horizontal.png" alt="Horizontal Motion">
+      <div class="text">
+        <p><strong>Horizontal Motion:</strong> In projectile motion, the horizontal component of velocity remains
+          constant because no horizontal forces (ignoring air resistance) act on the object. For example, a ball thrown
+          forward moves at a steady horizontal speed throughout its flight. <strong>Application:</strong> In sports like
+          soccer, a kicked ball travels horizontally at a constant velocity until it hits the ground or another object,
+          allowing players to predict its path.</p>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <img src="image/vertical.png" alt="Vertical Motion">
+      <div class="text">
+        <p><strong>Vertical Motion:</strong> The vertical component of a projectile's motion is influenced by gravity,
+          causing the object to accelerate downward at 9.8 m/s². This results in an upward rise to a maximum height,
+          followed by a descent. <strong>Application:</strong> In archery, the arrow’s vertical motion determines how
+          high it rises and how quickly it falls, affecting the aim needed to hit a target.</p>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <img src="image/path.png" alt="Parabolic Trajectory">
+      <div class="text">
+        <p><strong>Parabolic Trajectory:</strong> The combination of constant horizontal velocity and accelerated
+          vertical motion produces a parabolic path. The shape depends on the initial velocity and launch angle.
+          <strong>Application:</strong> In military ballistics, cannons are aimed at specific angles to achieve a
+          desired range, with the projectile following a parabolic trajectory to reach the target accurately.</p>
+      </div>
+    </div>
+
+    <!-- Embedded Video -->
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uEnUG_1TYxc"
+        title="Projectile Motion Explained" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</body>
+
+</html>
